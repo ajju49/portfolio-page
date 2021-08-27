@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/**********about me***********************/
+}
+.about-me{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding-top: 5em;
+}
+.about-me-desc{
+    color: maroon ;
+}
+/************gallary******************/
+.gallary{
+    background-color: darkgrey;
+}
+.row{
+    padding: 1% 7%;
+    margin: m;
+    overflow: auto;
+}
+.my-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 
+}
+.pics{
+    padding-right: 5%;
+}    
+
+
+
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 350px; /* Set a small width */
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  .page{
+      text-align: initial;
+      margin-right: 5px;
+      color: darkslategray;
+      
+  }
+  /****************social media*****************************/
+  #social-links{
+    height: 70px;
+    background: black;
+    text-align: center;
+}
+
+#social-links a {
+    display: inline-block;
+    font-size: 40px;
+    padding:  5px;
+    
+    transition: transform 2s ease,color 2s ease;
+
+    
+}
+#social-links a:hover{
+    transform: translateY(-20px);
+}
+.facebook{
+    color: blue;
+    margin-right: 20px;
+}
+.instagram{
+    color:  #ff0066;
+    margin-right: 20px;
+}
+.twitter{
+    color: 	 #00aaff;
+    margin-right: 20px;
+}
+.plus{
+    color: red;
+ 
+}
